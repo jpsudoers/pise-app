@@ -15,8 +15,15 @@
                     <div class="card-tools">
                         {% if user.establecimiento.reglamento_interno%}
                         <a class="btn btn-primary" href="{{user.establecimiento.reglamento_interno.url}}">
+                            <i class="fa fa-download"></i> Nombramiento Encargado de convivencia escolar
+                        </a>
+                        <a class="btn btn-primary" href="{{user.establecimiento.reglamento_interno.url}}">
+                            <i class="fa fa-download"></i> Plan de gestión de convivencia escolar
+                        </a>
+                        <a class="btn btn-primary" href="{{user.establecimiento.reglamento_interno.url}}">
                             <i class="fa fa-download"></i> Reglamento Interno
                         </a>
+                        
                         {% endif %} 
 
                     </div>
@@ -54,5 +61,20 @@
 <div class="row">
 
 </div>
+
+
+    <div>
+
+        <h2 style="color: blue;text-align: center;"> REGLAMENTO INTERNO DE  EDUCACIÓN PARVULARIA DEBE INCORPORAR LOS SIGUIENTES PROTOCOLOS FRENTE A:  (CIRCULAR N°860)</h2>
+        <ul>
+                <li><h4 style="color: blue;">Accidentes de párvulos:</li><p style="color: black">Procedimientos para abordar los diferentes tipos de accidentes a los que puedan verse enfrentados los párvulos, u otras actividades pedagógicas que estén bajo la responsabilidad del establecimiento</p>
+                <li><h4 style="color: blue;">Situaciones de maltrato entre miembros adultos de la comunidad educativa: </li><p style="color: black">Procedimientos aplicables frente a hechos de violencia física o sicológica entre apoderados, el personal y todo integrante adulto de la comunidad educativa.</p>
+                <li><h4 style="color: blue;">Situaciones de vulneración de derechos de los párvulos: </li><p style="color: black">Procedimientos para abordar descuidos o tratos negligentes, asociados a la desatención de necesidades físicas, psicológicas o emocionales de los párvulos.</p>
+                <li><h4 style="color: blue;">Hechos de maltrato infantil, connotación sexual o agresiones sexuales:</li><p style="color: black;">Procedimientos para adoptar medidas de protección que permitan resguardar la integridad física y psicológica de niños y niñas, frente a este tipo de situaciones.</p>
+                    
+                        
+    
+    
+            </div>
 <!--#endregion-->
 {% endblock fullcard %}

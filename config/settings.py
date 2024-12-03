@@ -104,7 +104,7 @@ DATABASES = {
         'NAME': "PiseApp",
         'USER': "pise",
         'PASSWORD': "pise_2022",
-        'HOST': "localhost",
+        'HOST': "35.170.104.222",
         'PORT': "5432",  # 5432 by default
     }
 }
